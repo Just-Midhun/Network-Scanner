@@ -63,7 +63,7 @@ This allowed consistent communication for testing.
 ## 5. Usage
 
 ```bash
-python PortScanner.py 192.168.158.133 -p 1-1024 -t 100 --banner
+python PortScanner.py 192.168.X.X -p 1-1024 -t 100 --banner
 ```
 
 ---
@@ -71,7 +71,7 @@ python PortScanner.py 192.168.158.133 -p 1-1024 -t 100 --banner
 ## 6. Sample Output
 
 ```
-Scanning 192.168.158.133 from port 1 to 1024
+Scanning 192.168.X.X from port 1 to 1024
 
 [OPEN] 80 | HTTP/1.0 200 OK
 Server: SimpleHTTP/0.6 Python/3.13.9
